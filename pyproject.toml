@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "idpa-data-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Alessio Seeberger <5441417-compgy@users.noreply.gitlab.com>"]
+readme = "README.md"
+packages = [{include = "idpa_data_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.5.0"
+pandas = "^1.5.1"
+openpyxl = "^3.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
